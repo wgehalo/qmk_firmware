@@ -19,9 +19,9 @@
 void keyboard_pre_init_user(void) {
   // Call the keyboard pre init code.
   // Set our LED pins as output
-  setPinOutput(B1);
-  setPinOutput(B3);
-  setPinOutput(F0);
+  // setPinOutput(B1);
+  // setPinOutput(B3);
+  // setPinOutput(F0);
 }
 
 bool led_update_kb(led_t led_state) {
